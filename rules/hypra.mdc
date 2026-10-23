@@ -1,0 +1,12 @@
+---
+description: How to write and check Hypra pages (.hypra files)
+globs: "**/*.hypra"
+alwaysApply: false
+---
+
+- .hypra files are Hypra, not HTML: `name(attributes) "text" { children }`. The language: https://hypralang.dev/llms-full.txt.
+- Design pages exactly as you would in HTML, with the same layout, classes and CSS or Tailwind. Hypra writes no CSS of its own.
+- Put what every page shares in a layout and pieces used more than once in a component, each in its own file, brought in with `use`.
+- Use `field` inside `form` for inputs, and `button` or a link for anything clickable, never a `div` with `onclick`.
+- After changing .hypra files, run `hypra check` on them (folders work) and fix every error and warning.
+- Don't silence a check with `allow` unless the page really needs it, and give the reason.

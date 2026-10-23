@@ -1,0 +1,21 @@
+{
+  "name": "hypra",
+  "owner": {
+    "name": "Hypra",
+    "url": "https://hypralang.dev"
+  },
+  "description": "The Hypra plugin for Claude Code: writing .hypra pages, and the language server.",
+  "plugins": [
+    {
+      "name": "hypra",
+      "source": "./",
+      "description": "Write Hypra pages with an AI agent: how the language works, the rules for .hypra files, and the hypra language server for errors as the agent writes.",
+      "category": "languages",
+      "tags": [
+        "hypra",
+        "html",
+        "accessibility"
+      ]
+    }
+  ]
+}

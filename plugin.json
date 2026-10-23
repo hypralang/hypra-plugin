@@ -1,0 +1,11 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "hypra",
+  "version": "0.1.0",
+  "description": "Write Hypra pages with an AI agent: how the language works, the rules for .hypra files, and the hypra language server for errors as the agent writes.",
+  "author": { "name": "Hypra", "url": "https://hypralang.dev" },
+  "homepage": "https://hypralang.dev/docs/agents/",
+  "repository": "https://github.com/hypralang/hypra-plugin",
+  "license": "MIT OR Apache-2.0",
+  "keywords": ["hypra", "html", "markdown", "accessibility", "templates", "lsp"]
+}

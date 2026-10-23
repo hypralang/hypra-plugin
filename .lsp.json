@@ -1,0 +1,7 @@
+{
+  "hypra": {
+    "command": "hypra",
+    "args": ["lsp"],
+    "extensionToLanguage": { ".hypra": "hypra" }
+  }
+}
