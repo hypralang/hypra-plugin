@@ -90,6 +90,11 @@ page(title: "Order bread", description: "Order bread from Crumb & Co for pickup 
 }
 ```
 
+Give a field `description: "..."` when its label alone doesn't tell an agent what to enter, e.g.
+`field("notes", type: Text(max: 300), label: "Notes", optional: true, description: "Allergies or a sliced loaf")`.
+Add `autosubmit: true` to a form only when it's safe to send without the visitor checking it, like a search;
+never to a form that orders, pays or deletes. Both need hypra 0.5 or later.
+
 ## What the compiler checks
 
 Errors stop the build:
